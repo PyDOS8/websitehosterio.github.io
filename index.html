@@ -4,18 +4,17 @@
     <title>WebsiteHosterIO</title>
   </head> 
   <body>
-   <h1>This website is for HWDSB only</h1>
    <noscript>This website uses JavaScript to read user input, change into file/link, and submit link/file</noscript>
-    
+
    <!-- Upload Section -->
    <div class="upload">
-      <h1>Upload School Work</h1>
+      <h1>Upload Files here</h1>
       <h2>Choose File and course URL:</h2>
       <form action="javascript:upload();">
         <input type="file" id="fileChosen"></input>
         <br/>
         <input type="url" placeholder="Enter course URL > " value="" id="courseUrl"></input>
-
+ 
         <!-- Upload Type and submission -->
         <h2>Upload Type:</h2>
         <p>Upload as:</p>
@@ -26,10 +25,39 @@
       </form>
     </div>
 
-    <!-- JavaScript code for upload -->
-    <script src="js/upload.js"></script>
+    <!-- Div for course info -->
+    <div class="course-info" id="course-info">
+      
+      <!-- Courses -->
+      <div class="student-courses" id="student-courses">
+        <h1>Your Courses</h1>
+        <p>The courses you chose will go here</p>
+      </div>
+      
+      <!-- Feedback Section -->
+      <div class="course-feedback" id="course-feedback">
 
+        <!-- Div for marks -->
+        <div class="marks" id="marks">
+          <p>Marks will go here</p>
+        </div>
+
+        <!-- Feedback -->
+        <div class="feedback" id="feedback">
+          <p>Teacher feedback will go here</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 
+      JavaScript code for school stuff(APIs, Course Info, Marks etc) 
+    -->
+    <script src="js/upload.js"></script>   <!-- JavaScript code to read user input -->
+    <script src="js/feedback.js"></script> <!-- JavaScript code to get feedback -->
+    <script src"js/course.js"></script>    <!-- JavaScript code to get course info -->
+    
     <!-- JavaScript code for non-school stuff -->
-    <script src="js/404.js"></script>
+    <script src="js/404.js"></script>      <!-- 404 code -->
   </body>
 </html>
+ 
