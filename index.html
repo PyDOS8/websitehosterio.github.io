@@ -26,6 +26,14 @@
       </form>
     </div>
 
+    <!-- Div to search for courses -->
+    <div class="search-nav">
+        <form action="javascript:search();">
+          <input type="search" value="" placeholder="Enter a course name" id="courseName">
+          <input type="submit">
+        </form>
+    </div>
+    
     <!-- Div for course info -->
     <div class="course-info" id="course-info">
       
@@ -33,6 +41,7 @@
       <div class="student-courses" id="student-courses">
         <h1>Your Courses</h1>
         <p>The courses you chose will go here</p>
+        <p>To get a specific course enter the course name in the search bar above</p>
       </div>
       
       <!-- Feedback Section -->
@@ -57,8 +66,9 @@
     <script src="js/feedback.js"></script> <!-- JavaScript code to get feedback -->
     <script src"js/course.js"></script>    <!-- JavaScript code to get course info -->
     <script src="js/notify.js"></script>   <!-- JavaScript code to notify user  -->
-    <script src="storeCourse.js"></script> <!-- JavaScript code to store students courses -->
+    <script src="studentCourse.js"></script> <!-- JavaScript code to store students courses -->
     <script src="js/storeAccount.js"></script> <!-- JavaScript code to store students account -->
+    <script src="js/searchCourses.js"></script> <!-- JavaScript code to search for courses -->
     
     <!-- JavaScript code for non-school stuff -->
     <script src="js/404.js"></script>      <!-- 404 code -->
