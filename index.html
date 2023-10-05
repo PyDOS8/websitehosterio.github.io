@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>WebsiteHosterIO</title>
+  </head> 
+  <body>
+   <h1>This website is for HWDSB only</h1>
+   <noscript>This website uses JavaScript to read user input, change into file/link, and submit link/file</noscript>
+    
+   <!-- Upload Section -->
+   <div class="upload">
+      <h1>Upload School Work</h1>
+      <h2>Choose File and course URL:</h2>
+      <form action="javascript:upload();">
+        <input type="file" id="fileChosen"></input>
+        <input type="url" placeholder="Enter course URL > " value="" id="courseUrl"></input>
+
+        <!-- Upload Type and submission -->
+        <h2>Upload Type:</h2>
+        <p>Upload as:</p>
+        <input type="checkbox" id="uploadFile">File</input>
+        <input type="checkbox" id="uploadLink">Link</input>
+        <br/>
+        <input type="submit" value="Submit Work"></input>
+      </form>
+    </div>
+
+    <!-- JavaScript code for upload -->
+    <script src="js/upload.js"></script>
+
+    <!-- JavaScript code for non-school stuff -->
+    <script src="js/404.js"></script>
+  </body>
+</html>
