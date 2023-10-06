@@ -9,6 +9,7 @@
     <!-- Navigation Bar -->
     <nav class="nav">
       <ul>
+	      <li><a href="login.php">Login to your school account</a></li>
 	       <li><a href="mailto:emullall9603@hwdsb.on.ca">Contact Me (Work)</a></li>
        	       <li><a href="mailto:eTmullall@outlook.com">Contact Me (Home)</a></li>
        		<li><a href="login.html">Login</a></li>
