@@ -9,12 +9,12 @@
     <!-- Navigation Bar -->
     <nav class="nav">
       <ul>
-	      <li><a href="mailto:emullall9603@hwdsb.on.ca">Contact Me (Work)</a></li>
+	       <li><a href="mailto:emullall9603@hwdsb.on.ca">Contact Me (Work)</a></li>
        	       <li><a href="mailto:eTmullall@outlook.com">Contact Me (Home)</a></li>
        		<li><a href="login.html">Login</a></li>
         	<li><a href="https://github.com/WebsiteHosterio/websitehosterio.github.io/">View Source Code</a></li>
      		<li><a href="javascript:window.location.reload()">Reload Page</a></li>
- 	</ul>
+       </ul>
       
     	 <!-- Upload Section -->
      	<div class="upload">
