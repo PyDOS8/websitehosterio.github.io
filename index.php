@@ -72,6 +72,7 @@
     <script src="js/feedback.js"></script> <!-- JavaScript code to get feedback -->
     <script src="js/course.js"></script>   <!-- JavaScript code to get course info -->
     <?php include("overdue.php")?>         <!-- PHP code to check for overdue work -->
+    <script src="js/overdue.js"></script>  <!-- JavaScript code to send request to server to get info about overdue work -->
     <?php include("notify.php")?>          <!-- PHP code to notify student -->
     <script src="studentCourse.js"></script> <!-- JavaScript code to store students courses -->
     <script src="js/storeAccount.js"></script> <!-- JavaScript code to store students account -->
