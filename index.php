@@ -67,10 +67,10 @@
     </nav>
 	  
     <!-- 
-	  JavaScript code for school stuff(APIs, Course Info, Marks, Notifications etc) 
+	  JavaScript and PHP code for school stuff(APIs, Course Info, Marks, Notifications etc) 
     -->
     <script src="js/feedback.js"></script> <!-- JavaScript code to get feedback -->
-    <script src="js/course.js"></script>    <!-- JavaScript code to get course info -->
+    <script src="js/course.js"></script>   <!-- JavaScript code to get course info -->
     <?php include("overdue.php")?>         <!-- PHP code to check for overdue work -->
     <?php include("notify.php")?>          <!-- PHP code to notify student -->
     <script src="studentCourse.js"></script> <!-- JavaScript code to store students courses -->
