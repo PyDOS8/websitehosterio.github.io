@@ -1,3 +1,7 @@
+<!--
+This is a website that will tell users about overdue work, get teacher feedback, and allow users to submit work as a file or a link
+-->
+
 <!DOCTYPE HTML>
 <html>
   <head>
