@@ -14,10 +14,15 @@ This is a website that will tell users about overdue work, get teacher feedback,
     <!-- Navigation Bar -->
     <nav class="nav">
       <ul>
-	      <li><a href="login.php">Login to your school account</a></li>
+	      <?php 
+		if(!$_COOKIE["username"]){
+			echo '<li><a href="login.php">Login to your school account</a></li>';
+		}else{
+			echo '<li><a href="logout.php">Logout of your school account</a></li>';
+		}
+	      ?>
 	      <li><a href="mailto:emullall9603@hwdsb.on.ca">Contact Me (Work)</a></li>
        	      <li><a href="mailto:eTmullall@outlook.com">Contact Me (Home)</a></li>
-       	      <li><a href="login.html">Login</a></li>
               <li><a href="https://github.com/WebsiteHosterio/websitehosterio.github.io/">View Source Code</a></li>
      	      <li><a href="javascript:window.location.reload()">Reload Page</a></li>
        </ul>
