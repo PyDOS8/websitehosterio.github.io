@@ -59,13 +59,13 @@ This is a website that will tell users about overdue work, get teacher feedback,
 	    <!-- Feedback Section -->
 	    <div class="course-feedback" id="course-feedback">
 		    <!-- Div for marks -->
-        	    <div class="marks" id="marks">
+        	    <div class="marks" id="marks">                                                                                
 					<p>Marks will go here</p>
 				</div>
 
         	    <!-- Feedback -->
-			    <div class="feedback" id="feedback">
-					<p>Teacher feedback will go here</p>
+		    <div class="feedback" id="feedback">
+			    <p>Teacher feedback will go here</p>
         	    </div>
       	    </div>
     	</div>
