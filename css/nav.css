@@ -1,0 +1,14 @@
+.nav ol{
+   color:white;
+}
+
+.nav a{
+  text-decoration:none;
+  font-family:cursive;
+}
+
+.upload{
+  position:absolute;
+  left:50%;
+  bottom:50%;
+}
