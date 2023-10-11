@@ -18,6 +18,7 @@ This is a website that will tell users about overdue work, get teacher feedback,
 		if(!$_COOKIE["username"]){
 			echo '<li><a href="login.php">Login to your school account</a></li>';
 		}else{
+			echo '<h1>Welcome ' .$_COOKIE["username"] . "</h1>";
 			echo '<li><a href="logout.php">Logout of your school account</a></li>';
 		}
 	      ?>
