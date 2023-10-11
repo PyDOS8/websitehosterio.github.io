@@ -6,6 +6,7 @@ This is a website that will tell users about overdue work, get teacher feedback,
 <html>
   <head>
     <title>WebsiteHosterIO</title>
+    <link rel="stylsheet" href="css/nav.css"/>
   </head> 
   <body>
    <noscript>This website uses JavaScript to read user input, change into file/link, and submit link/file</noscript>
