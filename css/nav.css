@@ -8,7 +8,13 @@
 }
 
 .upload{
-  position:absolute;
+  position:fixed;
   left:50%;
   bottom:50%;
+}
+
+.searchCourseURL{
+  position:fixed;
+  bottom:50;
+  left:20%;
 }
