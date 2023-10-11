@@ -30,7 +30,6 @@ This is a website that will tell users about overdue work, get teacher feedback,
         	<input type="file" id="fileChosen"></input>
          	<br/>
          	<input type="url" placeholder="Enter course URL > " value="" id="courseUrl"></input>
-    
          	<!-- Upload Type and submission -->
          	<h2>Upload Type:</h2>
          	<p>Upload as:</p>
@@ -44,8 +43,8 @@ This is a website that will tell users about overdue work, get teacher feedback,
     <!-- Div to search for courses -->
     <div class="search-nav">
 	    <form action="javascript:search();">
-          	<input type="search" value="" placeholder="Enter a course name" id="courseName">
-          	<input type="submit">
+          	<input type="search" value="" placeholder="Enter a course name" id="courseName" class="searchCourseURL"> 
+          	<input type="submit" value="Search for course" class="searchCourseURLButton">
         	</form>
     </div>
     
