@@ -98,6 +98,12 @@ This is a website that will tell users about overdue work, get teacher feedback,
 		    notCookieEnabled.style.left = "50%";
 		    notCookieEnabled.style.top = "100%";
 	    	    document.body.appendChild(notCookieEnabled);
+	    }else{
+		    var cookieEnabledMes = document.createElement("p");
+		    cookieEnabledMes.innerText = "This website uses cookies to store information";
+		    cookiesEnabled.style.position = "absolute";
+		    cookiesEnabled.style.left = "50%";
+		    cookiesEnabled.style.top = "100%";
 	    }
     </script>
 	  
