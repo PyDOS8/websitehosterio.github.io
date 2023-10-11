@@ -15,11 +15,11 @@ This is a website that will tell users about overdue work, get teacher feedback,
     <nav class="nav">
       <ul>
 	      <li><a href="login.php">Login to your school account</a></li>
-	       <li><a href="mailto:emullall9603@hwdsb.on.ca">Contact Me (Work)</a></li>
-       	       <li><a href="mailto:eTmullall@outlook.com">Contact Me (Home)</a></li>
-       		<li><a href="login.html">Login</a></li>
-        	<li><a href="https://github.com/WebsiteHosterio/websitehosterio.github.io/">View Source Code</a></li>
-     		<li><a href="javascript:window.location.reload()">Reload Page</a></li>
+	      <li><a href="mailto:emullall9603@hwdsb.on.ca">Contact Me (Work)</a></li>
+       	      <li><a href="mailto:eTmullall@outlook.com">Contact Me (Home)</a></li>
+       	      <li><a href="login.html">Login</a></li>
+              <li><a href="https://github.com/WebsiteHosterio/websitehosterio.github.io/">View Source Code</a></li>
+     	      <li><a href="javascript:window.location.reload()">Reload Page</a></li>
        </ul>
       
     	 <!-- Upload Section -->
@@ -61,7 +61,7 @@ This is a website that will tell users about overdue work, get teacher feedback,
 		    <!-- Div for marks -->
         	    <div class="marks" id="marks">                                                                                
 					<p>Marks will go here</p>
-				</div>
+		    </div>
 
         	    <!-- Feedback -->
 		    <div class="feedback" id="feedback">
@@ -82,7 +82,19 @@ This is a website that will tell users about overdue work, get teacher feedback,
     <script src="studentCourse.js"></script> <!-- JavaScript code to store students courses -->
     <script src="js/storeAccount.js"></script> <!-- JavaScript code to store students account -->
     <script src="js/searchCourses.js"></script> <!-- JavaScript code to search for courses -->
-    
+
+    <!-- JavaScript code to check if cookies are enabled -->
+    <script>
+	    if(!navigator.cookiesEnabled){
+		    var notCookieEnabled = document.createElement("p");
+		    notCookieEnabled.innerText = "To ensure that information is proerply saved please enable cookies!";
+	    	    notCookieEnabled.style.position = "absolute";
+		    notCookieEnabled.style.left = "50%";
+		    notCookieEnabled.style.top = "100%";
+	    	    document.body.appendChild(notCookieEnabled);
+	    }
+    </script>
+	  
     <!-- PHP and JavaScript code for non-school stuff -->
     <?php include("404.php")?>    <!-- 404 code -->
  </body>
