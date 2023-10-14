@@ -109,5 +109,6 @@ This is a website that will tell users about overdue work, get teacher feedback,
 	  
     <!-- PHP and JavaScript code for non-school stuff -->
     <?php include("404.php")?>    <!-- 404 code -->
+    <?php include("request.php")?> <!-- DDoS prevention -->
  </body>
 </html>
